@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBlog</title>
+    <link rel="stylesheet" href="style/util.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/blogspot.css">
+    <link rel="stylesheet" href="style/responsive.css">
+</head>
+
+<body>
+    <nav class="nav_container maxwidth-1 margin">
+        <div class="nav-left">
+            <span>
+                <a href="/index.html"><img src="image/logo.png" alt="logo"></a>
+            </span>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html"><input class="searchBar" type="text" name="query" placeholder="Article Search">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="maxwidth-1 margin">
+        <hr>
+    </div>
+    <div class="home-articles maxwidth-1 margin">
+        <h2 class="blog-para font2" style="font-size: 35px;">JupyterLab Desktop App — A Game Changer for Using Notebooks? Probably Not.</h2>
+
+        <div class="blog-para font3">
+            <p> <b> Author : Yong Cui</b> </p>    
+            <p> <b>October 6 | 6 min</b> </p>
+            <p> Although major python IDEs (e.g., Visual Studio Code, PyCharm, and recently DataSpell) all support
+                editing
+                Jupyter Notebooks, JupyterLab is still my go-to IDE when I use notebooks for my data science projects.
+                As an
+                interactive IDE, JupyterLab allows us to visualize the data (e.g., tabular data, images) step by step in
+                a
+                cell-based organization.
+                When we use JupyterLab, there are several ways to launch it — either using the terminal or using the
+                Anaconda Navigator app. In either case, you’ll have to launch another app before you can run JupyterLab.
+                Although it’s not a big deal, the extra step represents inconvenience to some extent. To solve this
+                issue,
+                the JupyterLab team has been working to make it better.
+                About less than one week ago, in Jupyter’s blog, they made an announcement on the release of the
+                JupyterLab’s desktop app. The link to the blog article is provided below for interested users.
+                It should be noted that the download link isn’t available on the Jupyter’s web page. Instead, it’s
+                available
+                on the GitHub page. The JupyterLab development team made a smart choice by building the desktop app
+                using
+                electron as electron allows programmers to develop cross-platform desktop apps with web development
+                languages, including JavaScript, HTML, and CSS.
+                Using the electron as the tool for building the front-end, JupyterLab Desktop App is thus a
+                cross-platform
+                independent IDE. The installers for major operation systems all are available on the GitHub page.
+                Windows: Windows Installer
+                Mac: macOS Installer
+                Linux: Debian, Ubuntu Linux Installer & Red Hat, Fedora, SUSE Linux Installer
+                To give it a try, I downloaded the macOS installer on my MacBook laptop. The installation is painless,
+                and
+                you just need to follow the prompts and install the app in the desired destination.</p>
+            <p>As you can see, it has the same user interface as what you can see on a web browser. So if you’re
+                familiar with JupyterLab web interface, it takes no time for you to start your notebook editing with the
+                same level of user experiences.
+                In terms of the app’s menu, it just provides the bare minimal commands that any Mac app has to offer,
+                and thus, there is a great room for the developer team to add functionalities to the app. Certainly, it
+                also requires extra work for them to accomplish this, because JupyterLab Desktop App is just like a UI
+                wrapper to serve as a container for JupyterLab. Thus, I bet that they’ll be still focused on the core
+                JupyterLab development, and I doubt they’ll do much improving the desktop app beyond what it has to
+                offer now.</p>
+            <p> <b>Final Thoughts</b> </p>
+            <p>
+                Anyhow, for experienced JupyterLab users, it won’t be a too much game changer. What it can do is
+                probably saving you a step by allowing you to launch JupyterLab directly.
+                However, for JupyterLab beginners or data science beginners, I doubt it will be very attractive, because
+                they’ll have to install the desktop app and conda separately to make it to work. Why don’t they simply
+                go install Anaconda? It will take care of the conda environment, and Anaconda Navigator offers a
+                shortcut for you to install and run JupyterLab very conveniently.
+                Thanks for reading this article. Stay connected by signing up my newsletter. Not a Medium member yet?
+                Support my writing by using my membership link.</p>
+        </div>
+        <h1 class="font2">People Also Searched For</h1>
+        <div class="also-search">
+            <div class="article blog-flex">
+                <img src="image/3.png" alt="" style="margin: 0;">
+                <a href="/blogspot.html">
+                    <h2 class="font2">Why You Should Be Very Worried About The Supply Chain</h2>
+                </a>
+            </div>
+
+            <div class="article blog-flex">
+                <img src="image/desk.png" alt="" style="margin: 0;">
+                <a href="/blogspot.html">
+                    <h2 class="font2">JupyterLab Desktop App — A Game Changer for Using Notebooks? Probably Not</h2>
+                </a>
+            </div>
+
+            <div class="article blog-flex">
+                <img src="image/2.png" alt="" style="margin: 0;">
+                <a href="/blogspot.html">
+                    <h2 class="font2">Millennials Are Stressed out Because of the Pressure to Make a Lot of Money
+                    </h2>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="maxwidth-1 margin">
+        <hr>
+    </div>
+    <footer class="foot_container font1 flex">
+        Copywrite &copy; iBlog.com
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.blog-para{
+    width: 50vw;
+    margin: auto;
+    font-size: 23px;
+}
+
+.home-articles h2{
+    font-size: 25px;
+}
+.also-search{
+    display: flex;
+    flex-direction: row;
+    /* margin: 0 16vw; */
+    justify-content: space-around;
+}
+
+.blog-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article a{
+    width: 15vw;
+    text-decoration: none;
+    color: black;
+}

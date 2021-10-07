@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --main-bg-color:brown;
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Gemunu Libre', sans-serif;
+    --font3: 'Lato', sans-serif;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2); 
+}
+
+.font3{
+    font-family: var(--font3);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maxwidth-1{
+    width: 80vw;
+}
+
+.maxwidth-2{
+    width: 55vw
+}
+
+.margin{
+    margin: auto;
+}
+
+.btn{
+    font-family: var(--font1);
+    width: 79px;
+    height: 4vh;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color:black;
+    color: white;
+    font-weight: bolder;
+}
+
+.cont-style{
+    width: 30vw;
+    height: 3vh;
+    padding-left: 2vw;
+    border: 2px solid rgb(251, 197, 95);
+    border-radius: 5px;
+    font-size: 18px;
+}

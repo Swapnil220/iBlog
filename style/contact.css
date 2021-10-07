@@ -1,0 +1,34 @@
+.contact-container{
+    margin: 2vw auto;
+    padding: 5vw 0;
+    height: 80vh;
+    position: relative;
+}
+    
+.contact-container::after{
+    content: "";
+    background-image:url('../image/11.svg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.15;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+.form{
+    padding-left: 5vw;
+    margin-top: 5vh;
+}
+
+.contact-form{
+    margin-bottom: 1vh;
+    
+}
+
+.contact-form textarea{
+    height: 30vh;
+    padding-top: 5px;
+}
+
